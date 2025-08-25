@@ -1,0 +1,19 @@
+nav{
+    display: flex;
+justify-content: space-between;
+border: 10px solid rgb(210, 185, 243);
+}
+
+
+li{
+    display: inline-block;
+    margin: 35px 60px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+h1{
+    font-size: 50px;
+
+}
