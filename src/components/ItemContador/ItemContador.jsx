@@ -17,7 +17,7 @@ const ItemContador = ({inicial, stock, funcionAgregar}) => {
         }
     }
 
-    console.log(contador)
+    
 
   return (
     <>
