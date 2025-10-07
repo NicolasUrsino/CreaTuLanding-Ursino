@@ -4,7 +4,7 @@ import Itemlist from '../Itemlist/Itemlist'
 import { useParams } from 'react-router-dom'
 import { collection, getDocs, query, where } from 'firebase/firestore'
 import { db } from '../service/config'
-
+import "./ItemListContainer.css"
 
 
 
@@ -31,24 +31,13 @@ const ItemListContainer = () => {
   }, [idCategoria])
 
 
-/*   useEffect(() => {
 
-    const funcionProductos = idCategoria ? traerProductosCat : traerProductos;
-
-    funcionProductos(idCategoria)
-      .then(res => setProductos(res))
-
-
-
-
-  }, [idCategoria])
- */
 
   return (
-    <>
-      <h2>Mis Productos</h2>
+   <div >
+     <div className='cardWelcome'> <h2 className='h2'>Bienvenidos a Ferrero </h2></div>
       <Itemlist productos={productos} />
-    </>
+    </div>
   )
 }
 

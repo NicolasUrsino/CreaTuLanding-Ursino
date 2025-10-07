@@ -11,10 +11,10 @@ const Item = ({id, nombre, precio, img, stock}) => {
   return (
     <div className="cardProducto">
 <img src={img} alt={nombre}/>
-<h3>Producto: {nombre}</h3>
-<p>Precio: {precio}</p>
-<p>Stock: {stock}</p>
-<Link to={`/item/${id}`}><button> Ver detalles</button></Link>
+<h3 className='itemLetter'>{nombre}</h3>
+<p className='itemLetter'>Precio: {precio}</p>
+<p className='itemLetter'>Stock: {stock}</p>
+<Link to={`/item/${id}`} ><button className='btnItem'> Detalles / Comprar</button></Link>
 
     </div>
   )

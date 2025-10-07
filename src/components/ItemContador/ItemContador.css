@@ -1,0 +1,38 @@
+.btnContador{
+    color: rgb(228, 255, 94);
+    border: solid 2px rgb(139, 1, 1);
+    background-color: rgba(99, 29, 29, 0.844);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+
+.btnContador:hover{
+    background-color: rgb(142, 12, 2); 
+    transform: scale(1.2); 
+    
+}
+
+
+.contador p{
+      color: rgb(228, 255, 94);
+      font-weight: bold;
+      text-align: center;
+}
+
+.btnAgregarCarrito{
+     color: rgb(228, 255, 94);
+    border: solid 2px rgb(139, 1, 1);
+    background-color: rgba(99, 29, 29, 0.844);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+}
+
+.btnAgregarCarrito:hover{
+background-color: rgb(142, 12, 2); 
+    transform: scale(1.2); 
+    
+}

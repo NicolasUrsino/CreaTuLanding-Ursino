@@ -1,4 +1,41 @@
-img{
-width: 150px;
-height: 150px;
+/* Contenedor del Link - necesario para el positioning */
+.cart-container {
+  position: relative;
+  display: inline-block;
+}
+.cart-container:hover .cartNumNav {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+.cartW{
+  width: 130px;
+  height: 130px;
+  border: solid 5px rgba(255, 245, 169, 0.71);
+  background-color: rgba(99, 29, 29, 0.844);
+  margin-right: 20px;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+  display: block; /* Importante para que no haya espacios extraños */
+}
+
+.cartW:hover{
+  transform: scale(1.1); 
+  background-color: rgba(142, 24, 24, 0.844);
+}
+
+.cartNumNav{
+  position: absolute;
+ bottom:-8px;
+  right: 5px;
+  color: rgba(142, 24, 24, 0.844);
+   border: solid 2px rgba(99, 29, 29, 0.844);
+  background-color: rgb(248, 207, 2);
+  font-size: 20px;
+  border-radius: 80%; /* Hace un círculo perfecto */
+  font-weight: bold;
+  padding: 5px 10px; /* Espaciado interno */
+  min-width: 20px;   /* Ancho mínimo */
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3); /* Sombra opcional */
 }

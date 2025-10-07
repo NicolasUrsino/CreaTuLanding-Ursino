@@ -8,12 +8,12 @@ const NavBar = () => {
     <>
 
       <nav>
-        <NavLink to="/">
-          <h1>Ferrero</h1>
+        <NavLink to="/" className="tittles li">
+          <h1  style={{fontSize : "40px"}}>Inicio</h1>
         </NavLink>
-        <ul>
-          <li><NavLink to="./categoria/manual">Productos Manuales</NavLink></li>
-          <li><NavLink to="./categoria/electrico">Productos Eléctricos</NavLink></li>
+        <ul className="ultittle">
+          <li className="li"><NavLink to="./categoria/manual" className="tittles li">Productos Manuales</NavLink></li>
+          <li className="li"><NavLink to="./categoria/electrico" className="tittles li">Productos Eléctricos</NavLink></li>
 
         </ul>
 

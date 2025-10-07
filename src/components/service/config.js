@@ -35,10 +35,7 @@ export const db = getFirestore(app)
 
 
 const misProductos = [
-    { id: "1", nombre: "Taladro", precio: 3000, img: "../public/taladro.webp", idCat: "electrico", stock: 10 },
-    { id: "2", nombre: "Martillo", precio: 1500, img: "../public/martillo.jpg", idCat: "manual", stock: 8 },
-    { id: "3", nombre: "Destornillador", precio: 600, img: "../public/destornillador.webp", idCat: "manual", stock: 3 },
-    { id: "4", nombre: "Sierra", precio: 2760, img: "../public/sierra.jpg", idCat: "manual", stock: 5 }
+    { nombre: "Amoladora", precio: 3700, img: "../public/amoladora.webp", idCat: "electrico", stock: 8, descripcion: "Una amoladora se utiliza para cortar, lijar, desbastar, pulir, cepillar y decapar una variedad de materiales gracias a su disco giratorio a altas revoluciones." },
 ]
 import { collection, doc, writeBatch } from "firebase/firestore";
 

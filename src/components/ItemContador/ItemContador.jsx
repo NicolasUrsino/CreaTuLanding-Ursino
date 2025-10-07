@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
+import "./ItemContador.css"
 
 const ItemContador = ({inicial, stock, funcionAgregar}) => {
 
@@ -21,12 +22,12 @@ const ItemContador = ({inicial, stock, funcionAgregar}) => {
 
   return (
     <>
-        <div>
-            <button onClick={incrementar}> + </button>
+        <div className='contador'>
+            <button className='btnContador' onClick={incrementar}> + </button>
             <p> {contador} </p>
-            <button onClick={decrementar}> - </button>
+            <button className='btnContador' onClick={decrementar}> - </button>
         </div>
-        <button onClick={()=> funcionAgregar(contador)}>Agregar al carrito</button>
+        <button className='btnAgregarCarrito' onClick={()=> funcionAgregar(contador)}>Agregar al carrito</button>
     </>
     )
 }
