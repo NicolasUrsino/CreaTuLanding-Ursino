@@ -10,8 +10,8 @@
     align-items: center;
     width: fit-content;
     margin: 20px auto;
-border-radius: 15px;
-margin-bottom: 60px;
+    border-radius: 15px;
+    margin-bottom: 60px;
 
 }
 
@@ -61,7 +61,7 @@ margin-bottom: 60px;
 
 .cardCounter {
     border: solid 2px rgb(139, 1, 1);
-     background-color: rgba(40, 36, 30, 0.925);
+    background-color: rgba(40, 36, 30, 0.925);
     border-radius: 15px;
     padding: 15px;
 
@@ -72,26 +72,30 @@ margin-bottom: 60px;
 
     display: flex;
     flex-direction: column;
-   align-items: center;
+    align-items: center;
     justify-content: center;
 
-    
+
 }
 
 
-.btnCompra{
-      color: rgb(228, 255, 94);
+.btnCompra {
+    color: rgb(228, 255, 94);
     border: solid 2px rgb(139, 1, 1);
     background-color: rgba(99, 29, 29, 0.844);
     cursor: pointer;
     transition: all 0.3s ease;
     border-radius: 5px;
-    width: 180px;
+    width: fit-content;
     height: 55px;
-    margin: 8px;
+    margin: 8px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+text-decoration: none;
 }
 
-.btnCompra:hover{
-    background-color: rgb(142, 12, 2); 
-    transform: scale(1.2); 
+.btnCompra:hover {
+    background-color: rgb(142, 12, 2);
+    transform: scale(1.2);
 }

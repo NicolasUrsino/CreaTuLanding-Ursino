@@ -9,7 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-      width: 450px;
+      width: fit-content;
   margin: 20px auto;
 border-radius: 15px;
 

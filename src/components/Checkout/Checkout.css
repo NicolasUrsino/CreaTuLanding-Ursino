@@ -1,0 +1,49 @@
+.formCheck{
+display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    justify-items: center
+}
+
+
+.errorDatos{
+
+       color: rgb(228, 255, 94);
+    border: solid 2px rgb(139, 1, 1);
+    background-color: rgba(99, 29, 29, 0.844);
+
+
+
+
+    border-radius: 5px;
+    width: 300px;
+    height: 55px;
+    margin: 0px auto;
+font-weight: bold;
+font-size: 20px;
+
+ display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.btnFinCompra:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+
+}
+
+.cardFinCompra{
+    border: solid 2px rgba(252, 203, 148, 0.595);
+    background-color: rgba(82, 15, 0, 0.925);
+    height: 150px;
+    width: 700px;
+margin: 10px auto;
+display: flex;
+flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}

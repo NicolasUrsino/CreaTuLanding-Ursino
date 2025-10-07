@@ -17,7 +17,7 @@ const{agregarAlCarrito} = useContext(CarritoContext);
   const manejadorCantidad = (cantidad) => {
     setCantidad(cantidad);
 
-    const item={id, nombre, precio};
+    const item={id, nombre, precio, img};
     agregarAlCarrito(item, cantidad);
     toast.success("Producto agregado al carrito", {
 position: "top-right",
