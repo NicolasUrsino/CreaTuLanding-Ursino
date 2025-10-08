@@ -14,7 +14,7 @@ const CartWidget = () => {
   return (
   <>
     <Link to="/cart" className="cart-container"> 
-      <img className='cartW' src="../../../public/img/carritocompras.jpg" alt="Carrito de compras" />
+      <img className='cartW' src="/img/carritocompras.jpg" alt="Carrito de compras" />
       
       
       {
