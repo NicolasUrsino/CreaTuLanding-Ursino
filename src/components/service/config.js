@@ -36,10 +36,10 @@ export const db = getFirestore(app)
 
 /* const misProductos = [
     { nombre: "Amoladora", precio: 3700, img: "../public/amoladora.webp", idCat: "electrico", stock: 8, descripcion: "Una amoladora se utiliza para cortar, lijar, desbastar, pulir, cepillar y decapar una variedad de materiales gracias a su disco giratorio a altas revoluciones." },
-] */
+] 
 import { collection, doc, writeBatch } from "firebase/firestore";
 
-/* const subirProductos = async () => {
+const subirProductos = async () => {
   const batch = writeBatch(db); 
   const productosRef = collection(db, "productos"); 
 
@@ -56,28 +56,11 @@ import { collection, doc, writeBatch } from "firebase/firestore";
   } catch (error) {
     console.error("Error subiendo productos: ", error);
   }
-};
+}; */
+
+
+
 /* subirProductos() */
 
 
 
-/* import { getFirestore, collection, getDocs, updateDoc, doc } from "firebase/firestore";
-
-const db = getFirestore();
-
-async function actualizarRutas() {
-  const productosRef = collection(db, "productos");
-  const snapshot = await getDocs(productosRef);
-
-  snapshot.forEach(async (prod) => {
-    const data = prod.data();
-    if (data.img && data.img.startsWith("../public")) {
-      const nuevaRuta = data.img.replace("../public", "/img");
-      await updateDoc(doc(db, "productos", prod.id), { img: nuevaRuta });
-      console.log(`✅ Actualizado: ${prod.id} -> ${nuevaRuta}`);
-    }
-  });
-}
-
-actualizarRutas();
- */

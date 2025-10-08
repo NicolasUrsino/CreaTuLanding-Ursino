@@ -18,11 +18,11 @@
 
 ## 📦 Funcionalidades principales
 
-- 🛍️ **Catálogo de productos:** 
-- 🔎 **Filtrado por categoría:** 
-- 🧾 **Detalle de producto:** 
-- 🛒 **Carrito de compras:** 
-- 👤 **Formulario de compra:** 
+- 🛍️ **Catálogo de productos** 
+- 🔎 **Filtrado por categoría** 
+- 🧾 **Detalle de producto** 
+- 🛒 **Carrito de compras** 
+- 👤 **Formulario de compra** 
 
 ---
 

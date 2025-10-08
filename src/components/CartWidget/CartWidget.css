@@ -1,4 +1,4 @@
-/* Contenedor del Link - necesario para el positioning */
+
 .cart-container {
   position: relative;
   display: inline-block;
@@ -16,7 +16,7 @@
   margin-right: 20px;
   border-radius: 15px;
   transition: all 0.3s ease;
-  display: block; /* Importante para que no haya espacios extraños */
+  display: block; 
 }
 
 .cartW:hover{
@@ -32,10 +32,10 @@
    border: solid 2px rgba(99, 29, 29, 0.844);
   background-color: rgb(248, 207, 2);
   font-size: 20px;
-  border-radius: 80%; /* Hace un círculo perfecto */
+  border-radius: 80%; 
   font-weight: bold;
-  padding: 5px 10px; /* Espaciado interno */
-  min-width: 20px;   /* Ancho mínimo */
+  padding: 5px 10px; 
+  min-width: 20px;   
   text-align: center;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.3); /* Sombra opcional */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3); 
 }
