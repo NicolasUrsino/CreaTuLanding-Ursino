@@ -12,8 +12,8 @@
 - **CSS** 
 - **React Router DOM** 
 - **React-toastify** 
-- **Firebase** – Base de datos o simulación de almacenamiento remoto.
-
+- **Firebase** – 
+- **React-SweetAlert2**
 ---
 
 ## 📦 Funcionalidades principales
