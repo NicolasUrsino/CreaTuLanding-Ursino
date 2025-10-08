@@ -14,11 +14,8 @@ const CartWidget = () => {
   return (
   <>
     <Link to="/cart" className="cart-container"> 
-<<<<<<< HEAD
       <img className='cartW' src="../../../public/img/carritocompras.jpg" alt="Carrito de compras" />
-=======
-      <img className='cartW' src="../../public/img/carritocompras.jpg" alt="Carrito de compras" />
->>>>>>> 3cbcf8be57f5f9aaed3455e91f237611e2f5031d
+      
       
       {
         cantidadTotal > 0 && <strong className='cartNumNav'>{cantidadTotal}</strong>
